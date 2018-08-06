@@ -1,10 +1,10 @@
-package org.cap.demo;
+package org.cap.demo1;
 
 import java.text.NumberFormat;
 import java.util.Scanner;
 
 //@Author:Varun M
-public class NumberConverter {
+public class moneytomoneyinwords {
 	
 	public static final String[] tens= {"","","twenty","thirty","fourty","fifty"
 			,"sixty","seventy","eighty","ninety"};
