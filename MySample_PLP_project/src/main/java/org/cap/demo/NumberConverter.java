@@ -5,13 +5,14 @@ import java.util.Scanner;
 
 //@Author:Varun M
 public class NumberConverter {
-
+	
+	public static final String[] tens= {"","","twenty","thirty","fourty","fifty"
+			,"sixty","seventy","eighty","ninety"};
+	
 	public static final String[] ones= { "","One","two","three","four","five",
 			"six","seven","eight","nine","ten","eleven","twelve","thirteen",
 			"fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"};
 	
-	public static final String[] tens= {"","","twenty","thirty","fourty","fifty"
-			,"sixty","seventy","eighty","ninety"};
 	
 
 	public static String convert(int n) {
