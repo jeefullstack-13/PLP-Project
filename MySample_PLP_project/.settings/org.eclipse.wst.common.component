@@ -1,19 +1,76 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId"/>
+=======
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<<<<<<< HEAD
+            
+    
+=======
         
+>>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project.git
     <wb-module deploy-name="MySample_PLP_project-0.0.1-SNAPSHOT">
+<<<<<<< HEAD
+                        
+        
+=======
                 
+>>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project.git
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+<<<<<<< HEAD
+                        
+        
+=======
                 
+>>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project.git
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+<<<<<<< HEAD
+                        
+        
+=======
                 
+<<<<<<< HEAD
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
                 
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project.git
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+<<<<<<< HEAD
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                        
+        
+=======
+=======
+>>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+>>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project.git
                 
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+                
+>>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project.git
         <property name="context-root" value="MySample_PLP_project"/>
+<<<<<<< HEAD
+                        
+        
+=======
                 
+>>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project.git
         <property name="java-output-path" value="/MySample_PLP_project/target/classes"/>
-            
-    </wb-module>
+<<<<<<< HEAD
+                    
     
+=======
+            
+>>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project.git
+    </wb-module>
+<<<<<<< HEAD
+        
+
+=======
+    
+>>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project.git
 </project-modules>
+>>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project
