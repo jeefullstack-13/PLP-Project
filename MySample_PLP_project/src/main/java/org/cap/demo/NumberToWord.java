@@ -1,28 +1,17 @@
-package org.cap.number;
+package org.cap.demo;
 
 import java.text.NumberFormat;
 import java.util.Scanner;
 
+//@author<Vinitha>
 
-//@author<Ankit>
-public class NumberToWordConverter {
+public class NumberToWord {
 	public static final String[] units = { "", "One", "Two", "Three", "Four",
 			"Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve",
 			"Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen",
 			"Eighteen", "Nineteen" };
 
-			public static final String[] tens = { 
-					"", 		// 0
-					"",		// 1
-					"Twenty", 	// 2
-					"Thirty", 	// 3
-					"Forty", 	// 4
-					"Fifty", 	// 5
-					"Sixty", 	// 6
-					"Seventy",	// 7
-					"Eighty", 	// 8
-					"Ninety" 	// 9
-			};
+			public static final String[] tens = { 	"", "",	"Twenty", "Thirty","Forty", "Fifty", "Sixty", "Seventy","Eighty", 	"Ninety" };
 
 			public static String convert(final int n) {
 				if (n < 0) {
@@ -52,12 +41,11 @@ public class NumberToWordConverter {
 				return convert(n / 10000000) + " Crore" + ((n % 10000000 != 0) ? " " : "") + convert(n % 10000000);
 			}
 
-			//@author<Ankit>
 			public static void main(final String[] args) {
 
 				int n;
 				Scanner s=new Scanner(System.in);
-			    System.out.println("Enter a number to convert into word format");
+			    System.out.println("Enter a number");
 				n =s.nextInt();
 				System.out.println(NumberFormat.getInstance().format(n) + "='" + convert(n) + "'");
 
