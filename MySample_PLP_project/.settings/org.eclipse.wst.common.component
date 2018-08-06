@@ -7,11 +7,39 @@
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
                 
 <<<<<<< HEAD
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                
+=======
+<<<<<<< HEAD
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project.git
+>>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project.git
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                        
+        
+=======
+=======
+>>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
 >>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project.git
+>>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project.git
                 
+<<<<<<< HEAD
+=======
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+                
+>>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project.git
+>>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project.git
         <property name="context-root" value="MySample_PLP_project"/>
                 
         <property name="java-output-path" value="/MySample_PLP_project/target/classes"/>

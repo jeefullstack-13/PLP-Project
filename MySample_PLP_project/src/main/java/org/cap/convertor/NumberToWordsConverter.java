@@ -1,34 +1,30 @@
-package org.cap.demo;
-/**
- * author: Ashritha
- */
+package org.cap.convertor;
+//Akash Patel
+
 import java.text.NumberFormat;
 import java.util.Scanner;
 
-public class NumberConverter {
-
-public static final String[] units = { "", "One", "Two", "Three", "Four",
+public class NumberToWordsConverter {
+	public static final String[] units = { "", "One", "Two", "Three", "Four",
 			"Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve",
 			"Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen",
 			"Eighteen", "Nineteen" };
 
 			public static final String[] tens = { 
-					"", 	
-					"",	
-					"Twenty", 	
-					"Thirty", 	
-					"Forty", 	
-					"Fifty", 	
-					"Sixty", 
-					"Seventy",	
-					"Eighty", 
-					"Ninety" 	
+					"", 		// 0
+					"",		// 1
+					"Twenty", 	// 2
+					"Thirty", 	// 3
+					"Forty", 	// 4
+					"Fifty", 	// 5
+					"Sixty", 	// 6
+					"Seventy",	// 7
+					"Eighty", 	// 8
+					"Ninety" 	// 9
 			};
 
 			public static String convert(final int n) {
-				if (n < 0) {
-					return "Minus " + convert(-n);
-				}
+			
 
 				if (n < 20) {
 					return units[n];
@@ -42,21 +38,16 @@ public static final String[] units = { "", "One", "Two", "Three", "Four",
 					return units[n / 100] + " Hundred" + ((n % 100 != 0) ? " " : "") + convert(n % 100);
 				}
 
-				
-				
-			 return convert(n / 1000) + " Thousand" + ((n % 10000 != 0) ? " " : "") + convert(n % 1000);
-
+				return convert(n / 10000000) + " Crore" + ((n % 10000000 != 0) ? " " : "") + convert(n % 10000000);
 			}
-			
-		
 
 			public static void main( String[] args) {
 
-				int s;
-				Scanner s1=new Scanner(System.in);
+				int n;
+				Scanner s=new Scanner(System.in);
 			    System.out.println("Enter a number to convert into word format");
-				s =s1.nextInt();
-				System.out.println(NumberFormat.getInstance().format(s) + "='" + convert(s) + "'");
+				n =s.nextInt();
+				System.out.println(NumberFormat.getInstance().format(n) + "='" + convert(n) + "'");
 
 			}
 	
