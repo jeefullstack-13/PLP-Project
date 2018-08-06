@@ -23,7 +23,7 @@ public class MainClass {
 		for(i=0; i<size; i++) {
 		 if(num[i]!='0') {
 			 
-		 if(i != size-2 && (sz-2)%2!=0){
+		 if((i != size-2 && (sz-2)%2!=0) || size==1){
 			System.out.print(switcher(num[i],0));
 			System.out.print(value(sz--));
 		 }
@@ -31,7 +31,7 @@ public class MainClass {
 			    System.out.print(tens(num[i],num[i+1]));
 			    break;
 		 }
-		 else if((sz-2)%2==0){
+		 else if((sz-2)%2==0 && sz-2>=2){
 			 System.out.print(tens(num[i],num[i+1]));
 			 System.out.print(value(sz--));
 			  sz--; i++;
