@@ -2,7 +2,7 @@ package org.cap.demo;
 import java.util.Scanner;
 
 //@Author<Sahithya>
-public class NumberConversion {
+public class NumberConversionS {
 	
 		public static void main(String[] args) {
 			int number = 0;
