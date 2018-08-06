@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId"/>
-=======
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
         
     <wb-module deploy-name="MySample_PLP_project-0.0.1-SNAPSHOT">
@@ -9,11 +6,9 @@
                 
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
                 
-<<<<<<< HEAD
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-=======
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
->>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project.git
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
                 
         <property name="context-root" value="MySample_PLP_project"/>
                 
@@ -22,4 +17,3 @@
     </wb-module>
     
 </project-modules>
->>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project

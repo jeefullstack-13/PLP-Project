@@ -2,6 +2,7 @@ package cap.string;
 
 import java.util.Scanner;
 
+//@Author: VIGNESH R
 public class StringConverter {
 	static String[] places= {"","one","two","three","four","five","six","seven","eight","nine","ten"};
 	static String[] tensplaces= {"","ten","twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety"};
