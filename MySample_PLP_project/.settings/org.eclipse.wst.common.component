@@ -29,6 +29,8 @@
 =======
                 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project.git
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
 <<<<<<< HEAD
@@ -37,8 +39,10 @@
         
 =======
 =======
+>>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
->>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project.git
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
                 
 >>>>>>> branch 'master' of https://github.com/jeefullstack-13/PLP-Project.git
         <property name="context-root" value="MySample_PLP_project"/>
